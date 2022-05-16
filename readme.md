@@ -32,7 +32,7 @@ Define uma abreviatura ou um acrónimo
 ```
 
 
-Não suportado em HTML5. Use ```<abbr>``` em vez disso. Define um acrônimo
+<span style="color:red">Não suportado em HTML5</span>. Use ```<abbr>``` em vez disso. Define um acrônimo
 ```
 <acronym>
 ```
@@ -44,7 +44,7 @@ Define as informações de contato do autor/proprietário de um documento
 ```
 
 
-Não suportado em HTML5. Use ```<embed>``` ou ```<object>``` em vez disso. Define um applet incorporado
+<span style="color:red">Não suportado em HTML5</span>. Use ```<embed>``` ou ```<object>``` em vez disso. Define um applet incorporado
 ```
 <applet>
 ```
@@ -86,7 +86,7 @@ Especifica o URL/destino base para todos os URLs relativos em um documento
 ```
 
 
-Não suportado em HTML5. Use CSS em vez disso. Especifica uma cor, tamanho e fonte padrão para todo o texto em um documento
+<span style="color:red">Não suportado em HTML5</span>. Use CSS em vez disso. Especifica uma cor, tamanho e fonte padrão para todo o texto em um documento
 ```
 <basefont>
 ```
@@ -104,7 +104,7 @@ Substitui a direção do texto atual
 ```
 
 
-Não suportado em HTML5. Use CSS em vez disso. Define texto grande
+<span style="color:red">Não suportado em HTML5</span>. Use CSS em vez disso. Define texto grande
 ```
 <big>
 ```
@@ -146,7 +146,7 @@ Define uma legenda de tabela
 ```
 
 
-Não suportado em HTML5. Use CSS em vez disso. Define texto centralizado
+<span style="color:red">Não suportado em HTML5</span>. Use CSS em vez disso. Define texto centralizado
 ```
 <center>
 ```
@@ -218,7 +218,7 @@ Define uma caixa de diálogo ou janela
 ```
 
 
-Não suportado em HTML5. Use ```<ul>``` em vez disso. Define uma lista de diretórios
+<span style="color:red">Não suportado em HTML5</span>. Use ```<ul>``` em vez disso. Define uma lista de diretórios
 ```
 <dir>
 ```
@@ -272,7 +272,7 @@ Especifica o conteúdo independente
 ```
 
 
-Não suportado em HTML5. Use CSS em vez disso. Define fonte, cor e tamanho para o texto
+<span style="color:red">Não suportado em HTML5</span>. Use CSS em vez disso. Define fonte, cor e tamanho para o texto
 ```
 <font>
 ```
@@ -290,13 +290,13 @@ Define um formulário HTML para entrada do usuário
 ```
 
 
-Não suportado em HTML5. Define uma janela (iframe) em um conjunto de quadros
+<span style="color:red">Não suportado em HTML5</span>. Define uma janela (iframe) em um conjunto de quadros
 ```
 <frame>
 ```
 
 
-Não suportado em HTML5. Define um conjunto de quadros
+<span style="color:red">Não suportado em HTML5</span>. Define um conjunto de quadros
 ```
 <frameset>
 ```
@@ -428,7 +428,7 @@ Define links de navegação
 ```
 
 
-Não suportado em HTML5. Define um conteúdo alternativo para usuários que não suportam frames
+<span style="color:red">Não suportado em HTML5</span>. Define um conteúdo alternativo para usuários que não suportam frames
 ```
 <noframes>
 ```
@@ -572,7 +572,7 @@ Define uma seção em um documento
 ```
 
 
-Não suportado em HTML5. Use ```<del>``` ou ```<s>``` em vez disso. Define o texto tachado
+<span style="color:red">Não suportado em HTML5</span>. Use ```<del>``` ou ```<s>``` em vez disso. Define o texto tachado
 ```
 <strike>
 ```
@@ -686,7 +686,7 @@ Define faixas de texto para elementos de mídia (```<video>``` e ```<audio>```)
 ```
 
 
-Não suportado em HTML5. Use CSS em vez disso. Define o texto do teletipo
+<span style="color:red">Não suportado em HTML5</span>. Use CSS em vez disso. Define o texto do teletipo
 ```
 <tt>
 ```
