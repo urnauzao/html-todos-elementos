@@ -1,5 +1,6 @@
-<!-- Antigamente, em versões anteriores de documento HTML esse escopo acima possuía muito mais informações -->
 <!DOCTYPE html>
+<!-- Antigamente, em versões anteriores de documento HTML esse escopo acima possuía muito mais informações -->
+
 <!-- https://www.w3schools.com/tags/ref_language_codes.asp  -->
 <html lang="pt">
 
@@ -26,6 +27,17 @@
     <!-- elemento <style> - Programar em CSS -->
     <style>
         /* incorporar css aqui mesmo */
+        body {
+            text-align: center;
+        }
+
+        .alinhar-a-esquerda {
+            text-align: left;
+        }
+
+        .tamanho-minimo {
+            width: fit-content
+        }
     </style>
 </head>
 
@@ -34,7 +46,7 @@
 <body>
     <!-- Exibir uma caixa de diálogo -->
     <dialog open>Caixa de diálogo</dialog>
-
+    <br><br><br>
     <!-- paragráfo de texto -->
     <p>texto sozinho</p>
 
@@ -54,14 +66,14 @@
     <!-- marcações de texto -->
     <p>
         <b>negrito, sem dar importância a essa parte</b><br>
-        <strong>texto maior</strong><br>
-        <small>texto menor</small><br>
-        <mark>texto sob marca texto</mark><br>
-        <i>itálico antigo</i><br>
+        texto normal - <strong>texto maior</strong><br>
+        texto normal - <small>texto menor</small><br>
+        <mark>texto sob marcação</mark><br>
+        <i>itálico antigo, usado para icones atualmente</i><br>
         <em>itálico moderno</em><br>
         <u>sublinado</u><br>
         <bdo dir="rtl">Texto invertido.. 1,2,3.</bdo><br>
-        <code>button</code><br>
+        elemento <code>button</code> por exemplo.<br>
         <del>removido</del> <ins>substituto</ins><br>
         opção para termos em caixa alta como <dfn title="HyperText Markup Language">HTML</dfn><br>
         <kbd>Ctrl</kbd> + <kbd>C</kbd> remete a um teclas do teclado<br>
@@ -241,6 +253,35 @@
             </tr>
         </tfoot>
     </table>
+    <table>
+        <caption>Título para a tabela</caption>
+        <thead>
+            <tr>
+                <th>Mês</th>
+                <th>Faturamento</th>
+                <th>Concluído</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Janeiro</td>
+                <td>R$ 200,00</td>
+                <td>Sim</td>
+            </tr>
+            <tr>
+                <td>Fevereiro</td>
+                <td>R$ 150,00</td>
+                <td>Sim</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td>Total</td>
+                <td>R$ 350,00</td>
+                <td>-</td>
+            </tr>
+        </tfoot>
+    </table><br><br>
 
     <!-- elemento <cite> - Citação em um texto -->
     <img src="https://www.w3schools.com/tags/img_the_scream.jpg" width="220" height="277" alt="The Scream">
@@ -258,105 +299,117 @@
         <option value="Chrome">
         <option value="Opera">
         <option value="Safari">
-    </datalist>
+    </datalist><br><br>
 
 
     <!-- Listas -->
     <!-- Lista com descrição em texto -->
-    <dl>
-        <dt>Café</dt>
-        <dd>Bebida quente</dd>
-        <dt>Leite</dt>
-        <dd>Bebida gelada</dd>
-    </dl>
+    <div class="alinhar-a-esquerda">
+        <h2>Elementos de Lista</h2>
+        <dl>
+            <dt>Café</dt>
+            <dd>Bebida quente</dd>
+            <dt>Leite</dt>
+            <dd>Bebida gelada</dd>
+        </dl>
 
-    <!-- Lista comum -->
-    <ul>
-        <li>Café</li>
-        <li>Leite</li>
-        <li>Água</li>
-    </ul>
+        <!-- Lista comum -->
+        <ul>
+            <li>Café</li>
+            <li>Leite</li>
+            <li>Água</li>
+        </ul>
 
-    <!-- Lista ordenada -->
-    <ol>
-        <li>Café</li>
-        <li>Leite</li>
-        <li>Água</li>
-    </ol>
+        <!-- Lista ordenada -->
+        <ol>
+            <li>Café</li>
+            <li>Leite</li>
+            <li>Água</li>
+        </ol>
+    </div><br><br>
 
     <!-- elemento <details> - Exibe detalhes quando clicado sobre -->
+    <h2>Elemento details</h2>
     <details>
         <summary>Clique aqui para saber mais</summary>
         <p>Então agora você sabe mais, porque você clicou em saber mais.</p>
-    </details>
+    </details><br><br>
 
     <!-- elemento <embed> - Incorpora um conteúdo de outra página -->
-    <embed type="text/html" src="https://www.w3schools.com/tags/snippet.html" width="500" height="200">
+    <h2>Elemento embed</h2>
+    <embed type="text/html" src="snippet.html" width="500" height="200">
+    <br><br><br>
 
     <!-- elemento <form> , <fieldset>, <legend>, <label>, <input> -->
-    <form action="https://www.w3schools.com/tags/action_page.php">
-        <fieldset>
-            <legend>Personalidade:</legend>
-            <label for="fname">Nome:</label>
-            <input type="text" id="fname" name="fname"><br><br>
-            <label for="senha">Senha:</label>
-            <input type="password" id="senha" name="senha"><br><br>
-            <label for="senha">Fazer upload:</label>
-            <input type="file"><br><br>
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email"><br><br>
-            <label for="salario">Salário:</label>
-            <input type="number" id="salario" name="salario"><br><br>
-            <label for="birthday">Aniversário:</label>
-            <input type="date" id="birthday" name="birthday"><br><br>
-            <label>Você tem:</label><br><br>
-            <input type="checkbox" name="cachorro" value="cachorro">
-            <label for="cachorro"> Tenho cachorro</label><br>
-            <input type="checkbox" name="gato" value="gato">
-            <label for="gato"> Tenho gato</label><br>
-            <input type="checkbox" name="lobo" value="lobo" checked>
-            <label for="lobo"> Tenho lobo</label><br>
-            <label>Linguagem preferida:</label><br><br>
-            <input type="radio" id="html" name="fav_language" value="HTML">
-            <label for="html">HTML</label><br>
-            <input type="radio" id="css" name="fav_language" value="CSS" checked="checked">
-            <label for="css">CSS</label><br>
-            <label for="carros">Selecione seu carro:</label>
-            <select name="carros" id="carros">
-                <optgroup label="Carro Suíço">
-                    <option value="volvo">Volvo</option>
-                    <option value="saab">Saab</option>
-                </optgroup>
-                <optgroup label="Carro Alemão">
-                    <option value="mercedes">Mercedes</option>
-                    <option value="audi">Audi</option>
-                </optgroup>
-            </select>
-            <input type="submit" value="Enviar">
-        </fieldset>
-    </form><br><br>
-    <form oninput="x.value=parseInt(a.value)+parseInt(b.value)">
-        <input type="range" id="a" value="50">
-        +<input type="number" id="b" value="25">
-        =<output name="x" for="a b"></output>
-    </form><br><br>
+    <div class="alinhar-a-esquerda tamanho-minimo">
+        <form action="https://www.w3schools.com/tags/action_page.php">
+            <fieldset>
+                <legend>Personalidade:</legend>
+                <label for="fname">Nome(text):</label>
+                <input type="text" id="fname" name="fname"><br><br>
+                <label for="senha">Senha(password):</label>
+                <input type="password" id="senha" name="senha"><br><br>
+                <label for="senha">Fazer upload(file):</label>
+                <input type="file"><br><br>
+                <label for="email">Email(email):</label>
+                <input type="email" id="email" name="email"><br><br>
+                <label for="salario">Salário(number):</label>
+                <input type="number" id="salario" name="salario"><br><br>
+                <label for="birthday">Aniversário(date):</label>
+                <input type="date" id="birthday" name="birthday"><br><br>
+                <label>Qual animal você tem(Checkbox):</label><br><br>
+                <input type="checkbox" name="cachorro" value="cachorro">
+                <label for="cachorro"> Cachorro</label><br>
+                <input type="checkbox" name="gato" value="gato">
+                <label for="gato"> Gato</label><br>
+                <input type="checkbox" name="lobo" value="lobo" checked>
+                <label for="lobo"> Lobo</label><br><br>
+                <label>Linguagem preferida (Radio):</label>
+                <input type="radio" id="html" name="fav_language" value="HTML">
+                <label for="html">HTML</label><br>
+                <input type="radio" id="css" name="fav_language" value="CSS" checked="checked">
+                <label for="css">CSS</label><br><br>
+                <label for="carros">Selecione seu carro(select):</label>
+                <select name="carros" id="carros">
+                    <optgroup label="Carro Suíço">
+                        <option value="volvo">Volvo</option>
+                        <option value="saab">Saab</option>
+                    </optgroup>
+                    <optgroup label="Carro Alemão">
+                        <option value="mercedes">Mercedes</option>
+                        <option value="audi">Audi</option>
+                    </optgroup>
+                </select>
+                <input type="submit" value="Enviar">
+            </fieldset>
+        </form><br><br>
+        <h2>Elemento output</h2>
+        <form oninput="x.value=parseInt(a.value)+parseInt(b.value)">
+            <input type="range" id="a" value="50">
+            +<input type="number" id="b" value="25">
+            =<output name="x" for="a b"></output>
+        </form><br><br>
+    </div>
 
     <!-- elemento  <figure>, <figcaption>, <img>-->
     <figure>
-        <img src="https://www.w3schools.com/tags/pic_trulli.jpg" alt="Foto de Trulli" style="width:100%">
+        <img src="https://www.w3schools.com/tags/pic_trulli.jpg" alt="Foto de Trulli" style="width:30%">
         <figcaption>Fig.1 - Trulli, Puglia, Itália.</figcaption>
     </figure><br><br>
 
     <!-- elemento <iframe> - Incorpora um conteúdo externo como vídeo do YouTube -->
+    <h2>Elemento iframe</h2>
     <iframe width="560" height="315" src="https://www.youtube.com/embed/qLiaHlZqQek" title="YouTube video player"
         frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
         allowfullscreen></iframe><br><br>
 
-    <!-- elemento <meter> - Mostra uma barra semelhante a de progresso -->
+    <!-- elemento <meter> - Mostra uma barra de dimensão escalar -->
+    <h2>Elemento meter</h2>
     <label for="disk_d">Disk usage D:</label>
     <meter id="disk_d" value="0.6">60%</meter><br><br>
 
     <!-- elemento <nav> - Utilizado normalmente em barras de navegação e menus -->
+    <h2>Elemento nav</h2>
     <nav>
         <a href="https://www.w3schools.com/tags/html/">HTML</a> |
         <a href="https://www.w3schools.com/tags/css/">CSS</a> |
@@ -374,6 +427,8 @@
     <!-- elemento <noscript> - Caso o JavaScript não esteja habilitado no navegador, ai mostra essa mensagem -->
     <noscript>Seu navegador não suporta JavaScript!</noscript>
 
+    <h2>Elemento picture e source</h2>
+    <p>Dependendo da dimensão da janela do navegador essa imagem será alterada.</p>
     <!-- elemento <picture> - Muito útil para fazer com que o navegador utilize a imagem 
         mais adequada mediante a resolução do usuário 
     -->
@@ -384,26 +439,28 @@
     </picture><br><br>
 
     <!-- elemento <pre> - Texto sem formatação, exibido como está escrito no código -->
-    <pre>
-        Text in a pre element
-        is displayed in a fixed-width
-        font, and it preserves
-        both      spaces and
-        line breaks
-    </pre><br><br>
+    <div class="alinhar-a-esquerda">
+        <pre>
+        Este texto     está
+        sendo exibido
+da mesma forma que está
+        no código       HTML
+        </pre>
+    </div><br><br>
 
     <!-- elemento <progress> - Barra de progresso  -->
     <label for="file_progress">Downloading progress:</label>
     <progress id="file_progress" value="32" max="100"> 32% </progress><br><br>
 
     <!-- elemento <svg> - Pode ser incorporado todo o código em SVG -->
+    <p>elemento SVG</p>
     <svg width="100" height="100">
         <circle cx="50" cy="50" r="40" stroke="green" stroke-width="4" fill="yellow" />
         Seu navegador não suporta SVG.
     </svg><br><br>
 
     <!-- elemento <textarea> - Caixa de texto -->
-    <label for="sobre_o_conteudo">Sobre o conteúdo:</label>
+    <label for="sobre_o_conteudo">Sobre o conteúdo:</label><br>
     <textarea id="sobre_o_conteudo" name="sobre_o_conteudo" rows="4" cols="50">
         Aquio você aprenderá como fazer um site. Oferecendo tutoriais gratuitos em todas as tecnologias de
         desenvolvimento web.
