@@ -1,9 +1,12 @@
 # Repositório com as principais tags(elemetos) HTML
 Neste repositório, no arquivo index.html está presente as principais tags HTML da atual versão do HTML 5.
-Assim, das variaedades de tags disponíveis, todas que estavão em situação de depreciada foram ignoradas.
+Assim, dentre as variedades de tags disponíveis, todas que estavão em situação de depreciada(descontinuada) foram ignoradas.
 
 ## Tutorial em Vídeo
-Este repositório foi feito como material de conteúdo para um vídeo do canal `Dev Tech Tips Brasil`, dessa forma quando o vídeo estiver no ar será então adicionado o link do vídeo aqui neste readme.md
+Este repositório foi feito como material de conteúdo para um vídeo no canal `Dev Tech Tips Brasil`, dessa forma quando o vídeo estiver no ar será então adicionado o link do vídeo aqui neste readme.md
+[Quero conhecer o canal!](https://www.youtube.com/channel/UC_TXbxNKS3aU-_EwFcgCYjA)
+[Ver vídeo tutorial do conteúdo HTML](#)
+
 
 ## Demonstração
 Link para visualizar a página HTML com todos os elementos sendo empregados. [Clique aqui](https://urnauzao.github.io/html-todos-elementos/)
