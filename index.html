@@ -1,0 +1,413 @@
+<!-- Antigamente, em versões anteriores de documento HTML esse escopo acima possuía muito mais informações -->
+<!DOCTYPE html>
+<!-- https://www.w3schools.com/tags/ref_language_codes.asp  -->
+<html lang="pt">
+
+<!-- Cabeçario do documento HTML -->
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Descrição dessa página que possuí exemplo dos principais elementos HTML5">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="author" content="Urnau">
+    <title>HTML com as principais TAGS para serem usadas no dia a dia.</title>
+
+    <!-- Gerar meta tags : https://metatags.io -->
+
+    <!-- elemento <base> - Recurso avançado, para ajustar links na página -->
+    <base href="#" target="_blank">
+
+    <!-- elemento <link> - Incorporar um estilo CSS -->
+    <link rel="stylesheet" href="#">
+    <!-- <link rel="stylesheet" href="https://www.w3schools.com/tags/styles.css"> -->
+
+    <!-- elemento <style> - Programar em CSS -->
+    <style>
+        /* incorporar css aqui mesmo */
+    </style>
+</head>
+
+<!-- Conteúdo da página HTML (visível pro usuário) -->
+
+<body>
+    <!-- Exibir uma caixa de diálogo -->
+    <dialog open>Caixa de diálogo</dialog>
+
+    <!-- paragráfo de texto -->
+    <p>texto sozinho</p>
+
+    <!-- quebrar linha -->
+    <p>linha de cima antes do BR<br> linha de baixo depois do BR</p>
+    <p>linha de cima antes do HR
+        <hr> linha de baixo depois do HR
+    </p>
+
+    <h1>Texto maior, eu sou o H1</h1>
+    <h2>Texto menor que o h1, eu sou o H2</h2>
+    <h3>Texto menor que o h2, eu sou o H3</h3>
+    <h4>Texto menor que o h3, eu sou o H4</h4>
+    <h5>Texto menor que o h4, eu sou o H5</h5>
+    <h6>Texto menor que o h5, eu sou o H6</h6>
+
+    <!-- marcações de texto -->
+    <p>
+        <b>negrito, sem dar importância a essa parte</b><br>
+        <strong>texto maior</strong><br>
+        <small>texto menor</small><br>
+        <mark>texto sob marca texto</mark><br>
+        <i>itálico antigo</i><br>
+        <em>itálico moderno</em><br>
+        <u>sublinado</u><br>
+        <bdo dir="rtl">Texto invertido.. 1,2,3.</bdo><br>
+        <code>button</code><br>
+        <del>removido</del> <ins>substituto</ins><br>
+        opção para termos em caixa alta como <dfn title="HyperText Markup Language">HTML</dfn><br>
+        <kbd>Ctrl</kbd> + <kbd>C</kbd> remete a um teclas do teclado<br>
+        <q>Marcação de citação curta</q><br>
+        <s>Isso aqui já foi verdade</s><br>
+        selecionar <span style="color:blueviolet">algo dentro</span> do texto<br>
+        texto <sup>acima</sup> do padrão<br>
+        texto <sub>abaixo</sub> do padrão<br>
+        quando temos uma variável tipo <var>delta</var> então usamos.
+    </p>
+
+    <!-- elemento <a>  -->
+    <p>
+        <a href="https://google.com.br" target="_blank">acessar o google em página nova</a><br>
+        <a href="https://google.com.br" target="_parent">acessar o google em outro frame</a><br>
+        <a href="https://google.com.br" target="_self">acessar o google neste mesmo frame (default)</a><br>
+        <a href="https://google.com.br" target="_top">acessar o google nesta mesma página</a><br>
+        <a href="teste.html" target="_top">teste para o BASE no HEAD</a><br>
+    </p>
+
+    <!-- elemento <abbr> - Faz uma abreviatura, passe o mouse para ver o conteúdo -->
+    <p>Eu sou <abbr title="Brasileiro">BR</abbr>. Aqui com abbr</p>
+
+    <!-- elemento <address> - Campo de endereço -->
+    <address>
+        Address<br>
+        Av. Brasil, 200<br>
+        São Paulo - SP<br>
+        Brasil
+    </address>
+
+    <!-- elemento <img> - Imagens -->
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Sao_Paulo_in_Brazil.svg/300px-Sao_Paulo_in_Brazil.svg.png"
+        alt="Caso a imagem não carregue será exibido este texto">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Sao_Paulo_in_Brazil.svg/300px-Sao_Paulo_in_Brazil.svg.png"
+        title="se passar o mouse em cima vai ver esse texto">
+    <img src="x" alt="Vai mostrar esse texto pq a imagem está errada.">
+
+    <!-- Mapear posições de uma imagem https://www.w3schools.com/tags/tag_area.asp -->
+
+    <!-- elemento <article> - Ajuda na indexação por robos de busca -->
+    <article>
+        <h2>Article Mozilla Firefox</h2>
+        <p>Mozilla Firefox is an open-source web browser developed by Mozilla. Firefox has been the second most popular
+            web
+            browser since January, 2018.</p>
+    </article>
+
+    <!-- elemento <section> - Ajuda a criar sessões dentro do site -->
+    <section>
+        <article>
+            <header>
+                <h1>Section com Header Introdução ao conteúdo</h1>
+                <p>Este conteúdo é muito radical</p>
+            </header>
+            <h1>Section sem Header</h1>
+            <p>Mozilla Firefox is an open-source web browser developed by Mozilla. Firefox has been the second most
+                popular
+                web
+                browser since January, 2018.</p>
+        </article>
+    </section>
+
+    <!-- elemento <div> - Muito usado para delimitar áreas e campos e assim empregar efeito CSS -->
+    <div>
+        <h2>Div com H2</h2>
+        <p>Mozilla Firefox is an open-source web browser developed by Mozilla. Firefox has been the second most
+            popular
+            web
+            browser since January, 2018.</p>
+    </div>
+
+    <!-- elemento <footer> - Utilizado sempre no fim da página -->
+    <footer>
+        <p>Footer</p>
+        <p>Autor: Urnau</p>
+        <p><a href="mailto:urnau@example.com">urnau@example.com</a></p>
+    </footer>
+
+    <!-- elemento <main> - Conteúdo principal -->
+    <main>
+        <h1>Main -> H1 </h1>
+        <p>Chrome, Firefox, and Edge are the most used browsers today.</p>
+
+        <article>
+            <h2>Google Chrome</h2>
+            <p>Google Chrome is a web browser developed by Google, released in 2008. Chrome is the world's most popular
+                web
+                browser today!</p>
+        </article>
+
+        <article>
+            <h2>Mozilla Firefox</h2>
+            <p>Mozilla Firefox is an open-source web browser developed by Mozilla. Firefox has been the second most
+                popular
+                web browser since January, 2018.</p>
+        </article>
+
+        <article>
+            <h2>Microsoft Edge</h2>
+            <p>Microsoft Edge is a web browser developed by Microsoft, released in 2015. Microsoft Edge replaced
+                Internet
+                Explorer.</p>
+        </article>
+    </main>
+
+
+    <!-- elemento <aside> - Geralmente utilizado para barras de menu lateral - 
+        exemplo:https://www.w3schools.com/tags/tryit.asp?filename=tryhtml5_aside2 
+    -->
+    <aside>
+        <h4>ASIDE Epcot Center</h4>
+        <p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions,
+            award-winning fireworks and seasonal special events.</p>
+    </aside><br><br>
+
+    <!-- elemento <audio> - Utilizado quando você tem localmente os arquivos de aúdio 
+        exemplo: https://www.w3schools.com/tags/tryit.asp?filename=tryhtml5_audio
+    -->
+    <audio controls autoplay>
+        <source src="horse.ogg" type="audio/ogg">
+        <source src="horse.mp3" type="audio/mpeg">
+        Your browser does not support the audio tag.
+    </audio><br><br>
+
+    <!-- elemento <blockquote> - Citação -->
+    <blockquote cite="http://www.worldwildlife.org/who/index.html">
+        For 50 years, WWF has been protecting the future of nature. The world's leading conservation organization, WWF
+        works in 100 countries and is supported by 1.2 million members in the United States and close to 5 million
+        globally.
+    </blockquote><br><br>
+
+    <!-- elemento <button> - Cria um botão -->
+    <button type="button">Click Me!</button>
+    <button type="button" disabled>Click Me!</button><br><br>
+
+    <!-- elemento <canvas> - Cria um objeto canvas -->
+    <canvas id="myCanvas">Se o navegador não suportar, vai mostrar isso aqui.</canvas>
+    <script>
+        var c = document.getElementById("myCanvas");
+        var ctx = c.getContext("2d");
+        ctx.fillStyle = "#FF0000";
+        ctx.fillRect(0, 0, 80, 100);
+    </script>
+
+    <!-- elemento <table>, <caption>, <colgroup>, <tr>, <th>, <td> -->
+    <table>
+        <caption>Título para a tabela</caption>
+        <colgroup>
+            <col span="2" style="background-color:red">
+            <col style="background-color:yellow">
+        </colgroup>
+        <thead>
+            <tr>
+                <th>Mês</th>
+                <th>Faturamento</th>
+                <th>Concluído</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Janeiro</td>
+                <td>R$ 200,00</td>
+                <td>Sim</td>
+            </tr>
+            <tr>
+                <td>Fevereiro</td>
+                <td>R$ 150,00</td>
+                <td>Sim</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td>Total</td>
+                <td>R$ 350,00</td>
+                <td>-</td>
+            </tr>
+        </tfoot>
+    </table>
+
+    <!-- elemento <cite> - Citação em um texto -->
+    <img src="https://www.w3schools.com/tags/img_the_scream.jpg" width="220" height="277" alt="The Scream">
+    <p><cite>O grito</cite> por Edward Munch. Pintado em 1893.</p>
+
+    <!-- elemento <label> - Serve como uma etiqueta ou rótulo do conteúdo -->
+    <label for="browser">Qual seu navegador?</label>
+
+    <!-- elemento <datalist> - Necessita do input com atributo list-->
+    <label for="browser">Qual seu navegador?</label>
+    <input list="browsers" name="browser" id="browser">
+    <datalist id="browsers">
+        <option value="Edge">
+        <option value="Firefox">
+        <option value="Chrome">
+        <option value="Opera">
+        <option value="Safari">
+    </datalist>
+
+
+    <!-- Listas -->
+    <!-- Lista com descrição em texto -->
+    <dl>
+        <dt>Café</dt>
+        <dd>Bebida quente</dd>
+        <dt>Leite</dt>
+        <dd>Bebida gelada</dd>
+    </dl>
+
+    <!-- Lista comum -->
+    <ul>
+        <li>Café</li>
+        <li>Leite</li>
+        <li>Água</li>
+    </ul>
+
+    <!-- Lista ordenada -->
+    <ol>
+        <li>Café</li>
+        <li>Leite</li>
+        <li>Água</li>
+    </ol>
+
+    <!-- elemento <details> - Exibe detalhes quando clicado sobre -->
+    <details>
+        <summary>Clique aqui para saber mais</summary>
+        <p>Então agora você sabe mais, porque você clicou em saber mais.</p>
+    </details>
+
+    <!-- elemento <embed> - Incorpora um conteúdo de outra página -->
+    <embed type="text/html" src="https://www.w3schools.com/tags/snippet.html" width="500" height="200">
+
+    <!-- elemento <form> , <fieldset>, <legend>, <label>, <input> -->
+    <form action="https://www.w3schools.com/tags/action_page.php">
+        <fieldset>
+            <legend>Personalidade:</legend>
+            <label for="fname">Nome:</label>
+            <input type="text" id="fname" name="fname"><br><br>
+            <label for="senha">Senha:</label>
+            <input type="password" id="senha" name="senha"><br><br>
+            <label for="senha">Fazer upload:</label>
+            <input type="file"><br><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email"><br><br>
+            <label for="salario">Salário:</label>
+            <input type="number" id="salario" name="salario"><br><br>
+            <label for="birthday">Aniversário:</label>
+            <input type="date" id="birthday" name="birthday"><br><br>
+            <label>Você tem:</label><br><br>
+            <input type="checkbox" name="cachorro" value="cachorro">
+            <label for="cachorro"> Tenho cachorro</label><br>
+            <input type="checkbox" name="gato" value="gato">
+            <label for="gato"> Tenho gato</label><br>
+            <input type="checkbox" name="lobo" value="lobo" checked>
+            <label for="lobo"> Tenho lobo</label><br>
+            <label>Linguagem preferida:</label><br><br>
+            <input type="radio" id="html" name="fav_language" value="HTML">
+            <label for="html">HTML</label><br>
+            <input type="radio" id="css" name="fav_language" value="CSS" checked="checked">
+            <label for="css">CSS</label><br>
+            <label for="carros">Selecione seu carro:</label>
+            <select name="carros" id="carros">
+                <optgroup label="Carro Suíço">
+                    <option value="volvo">Volvo</option>
+                    <option value="saab">Saab</option>
+                </optgroup>
+                <optgroup label="Carro Alemão">
+                    <option value="mercedes">Mercedes</option>
+                    <option value="audi">Audi</option>
+                </optgroup>
+            </select>
+            <input type="submit" value="Enviar">
+        </fieldset>
+    </form><br><br>
+    <form oninput="x.value=parseInt(a.value)+parseInt(b.value)">
+        <input type="range" id="a" value="50">
+        +<input type="number" id="b" value="25">
+        =<output name="x" for="a b"></output>
+    </form><br><br>
+
+    <!-- elemento  <figure>, <figcaption>, <img>-->
+    <figure>
+        <img src="https://www.w3schools.com/tags/pic_trulli.jpg" alt="Foto de Trulli" style="width:100%">
+        <figcaption>Fig.1 - Trulli, Puglia, Itália.</figcaption>
+    </figure><br><br>
+
+    <!-- elemento <iframe> - Incorpora um conteúdo externo como vídeo do YouTube -->
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/qLiaHlZqQek" title="YouTube video player"
+        frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen></iframe><br><br>
+
+    <!-- elemento <meter> - Mostra uma barra semelhante a de progresso -->
+    <label for="disk_d">Disk usage D:</label>
+    <meter id="disk_d" value="0.6">60%</meter><br><br>
+
+    <!-- elemento <nav> - Utilizado normalmente em barras de navegação e menus -->
+    <nav>
+        <a href="https://www.w3schools.com/tags/html/">HTML</a> |
+        <a href="https://www.w3schools.com/tags/css/">CSS</a> |
+        <a href="https://www.w3schools.com/tags/js/">JavaScript</a> |
+        <a href="https://www.w3schools.com/tags/python/">Python</a>
+    </nav><br><br>
+
+    <!-- elemento <script> - Onde fica códigos JavaScript -->
+    <script>
+        document.write("Hello World! Escrito pelo JavaScript")
+    </script>
+    <script src="#"></script>
+    <br><br>
+
+    <!-- elemento <noscript> - Caso o JavaScript não esteja habilitado no navegador, ai mostra essa mensagem -->
+    <noscript>Seu navegador não suporta JavaScript!</noscript>
+
+    <!-- elemento <picture> - Muito útil para fazer com que o navegador utilize a imagem 
+        mais adequada mediante a resolução do usuário 
+    -->
+    <picture>
+        <source media="(min-width:650px)" srcset="https://www.w3schools.com/tags/img_pink_flowers.jpg">
+        <source media="(min-width:465px)" srcset="https://www.w3schools.com/tags/img_white_flower.jpg">
+        <img src="https://www.w3schools.com/tags/img_orange_flowers.jpg" alt="Flowers" style="width:auto;">
+    </picture><br><br>
+
+    <!-- elemento <pre> - Texto sem formatação, exibido como está escrito no código -->
+    <pre>
+        Text in a pre element
+        is displayed in a fixed-width
+        font, and it preserves
+        both      spaces and
+        line breaks
+    </pre><br><br>
+
+    <!-- elemento <progress> - Barra de progresso  -->
+    <label for="file_progress">Downloading progress:</label>
+    <progress id="file_progress" value="32" max="100"> 32% </progress><br><br>
+
+    <!-- elemento <svg> - Pode ser incorporado todo o código em SVG -->
+    <svg width="100" height="100">
+        <circle cx="50" cy="50" r="40" stroke="green" stroke-width="4" fill="yellow" />
+        Seu navegador não suporta SVG.
+    </svg><br><br>
+
+    <!-- elemento <textarea> - Caixa de texto -->
+    <label for="sobre_o_conteudo">Sobre o conteúdo:</label>
+    <textarea id="sobre_o_conteudo" name="sobre_o_conteudo" rows="4" cols="50">
+        Aquio você aprenderá como fazer um site. Oferecendo tutoriais gratuitos em todas as tecnologias de
+        desenvolvimento web.
+    </textarea><br><br>
+</body>
+
+</html>
