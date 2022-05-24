@@ -56,6 +56,7 @@
         <hr> linha de baixo depois do HR
     </p>
 
+    <!-- Nuncar ter mais de 1 H1 na página -->
     <h1>Texto maior, eu sou o H1</h1>
     <h2>Texto menor que o h1, eu sou o H2</h2>
     <h3>Texto menor que o h2, eu sou o H3</h3>
@@ -65,7 +66,7 @@
 
     <!-- marcações de texto -->
     <p>
-        <b>negrito, sem dar importância a essa parte</b><br>
+        <b>negrito, sem dar importância</b> a essa parte<br>
         texto normal - <strong>texto maior</strong><br>
         texto normal - <small>texto menor</small><br>
         <mark>texto sob marcação</mark><br>
@@ -79,7 +80,7 @@
         <kbd>Ctrl</kbd> + <kbd>C</kbd> remete a um teclas do teclado<br>
         <q>Marcação de citação curta</q><br>
         <s>Isso aqui já foi verdade</s><br>
-        selecionar <span style="color:blueviolet">algo dentro</span> do texto<br>
+        selecionar <span style="color: blueviolet;">algo dentro</span> do texto<br>
         texto <sup>acima</sup> do padrão<br>
         texto <sub>abaixo</sub> do padrão<br>
         quando temos uma variável tipo <var>delta</var> então usamos.
@@ -107,7 +108,7 @@
 
     <!-- elemento <img> - Imagens -->
     <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Sao_Paulo_in_Brazil.svg/300px-Sao_Paulo_in_Brazil.svg.png"
-        alt="Caso a imagem não carregue será exibido este texto">
+        alt="Caso a imagem não carregue será exibido este texto" title="Você está com o mouse em cima da imagem">
     <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Sao_Paulo_in_Brazil.svg/300px-Sao_Paulo_in_Brazil.svg.png"
         title="se passar o mouse em cima vai ver esse texto">
     <img src="x" alt="Vai mostrar esse texto pq a imagem está errada.">
@@ -308,7 +309,8 @@
         <h2>Elementos de Lista</h2>
         <dl>
             <dt>Café</dt>
-            <dd>Bebida quente</dd>
+            <dd>Bebida quente 1</dd>
+            <dd>Bebida quente 2</dd>
             <dt>Leite</dt>
             <dd>Bebida gelada</dd>
         </dl>
@@ -318,6 +320,13 @@
             <li>Café</li>
             <li>Leite</li>
             <li>Água</li>
+            <li> Outra lista
+                <ul>
+                    <li>Café</li>
+                    <li>Leite</li>
+                    <li>Água</li>
+                </ul>
+            </li>
         </ul>
 
         <!-- Lista ordenada -->
@@ -325,6 +334,13 @@
             <li>Café</li>
             <li>Leite</li>
             <li>Água</li>
+            <li> Outra Lista ordenada
+                <ol>
+                    <li>Café</li>
+                    <li>Leite</li>
+                    <li>Água</li>
+                </ol>
+            </li>
         </ol>
     </div><br><br>
 
@@ -364,7 +380,7 @@
                 <label for="gato"> Gato</label><br>
                 <input type="checkbox" name="lobo" value="lobo" checked>
                 <label for="lobo"> Lobo</label><br><br>
-                <label>Linguagem preferida (Radio):</label>
+                <label>Linguagem preferida (Radio):</label><br>
                 <input type="radio" id="html" name="fav_language" value="HTML">
                 <label for="html">HTML</label><br>
                 <input type="radio" id="css" name="fav_language" value="CSS" checked="checked">
@@ -379,7 +395,7 @@
                         <option value="mercedes">Mercedes</option>
                         <option value="audi">Audi</option>
                     </optgroup>
-                </select>
+                </select><br>
                 <input type="submit" value="Enviar">
             </fieldset>
         </form><br><br>

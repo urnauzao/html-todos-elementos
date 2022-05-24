@@ -5,7 +5,9 @@ Assim, dentre as variedades de tags disponíveis, todas que estavão em situaç�
 ## Tutorial em Vídeo
 Este repositório foi feito como material de conteúdo para um vídeo no canal `Dev Tech Tips Brasil`, dessa forma quando o vídeo estiver no ar será então adicionado o link do vídeo aqui neste readme.md
 
+
 [Quero conhecer o canal!](https://www.youtube.com/channel/UC_TXbxNKS3aU-_EwFcgCYjA)
+
 
 [Ver vídeo tutorial do conteúdo HTML](#)
 
@@ -729,3 +731,17 @@ Define uma possível quebra de linha
 ```
 <wbr>
 ```
+
+## Ferramentas
+### Gerar Meta Tags 
+- Isso é necessário quando você quer melhorar o SEO de seu site.
+    - [Seoptimer](https://www.seoptimer.com/meta-tag-generator?origem=https://www.youtube.com/channel/UC_TXbxNKS3aU-_EwFcgCYjA)
+    - [Meta Tags](https://metatags.io?origem=https://www.youtube.com/channel/UC_TXbxNKS3aU-_EwFcgCYjA)
+    - [Cia Websites](https://www.ciawebsites.com.br/ferramentas-de-seo/gerador-de-meta-tags/#meta-tags-wrapper?origem=https://www.youtube.com/channel/UC_TXbxNKS3aU-_EwFcgCYjA)
+### Gerar Favicon 
+- Ferramente para gerar aquele icone que fica na aba do seu browser.
+    - [Favicon Generator](https://www.favicon-generator.org)
+
+## Extra - O que é HTML Semântico
+- Isso é uma padronização de boas pátricas para uso do HTML
+    - [Dev Media Html Semântico](https://www.devmedia.com.br/html-semantico-conheca-os-elementos-semanticos-da-html5/38065?origem=https://www.youtube.com/channel/UC_TXbxNKS3aU-_EwFcgCYjA)
