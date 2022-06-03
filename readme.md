@@ -6,10 +6,12 @@ Assim, dentre as variedades de tags disponíveis, todas que estavão em situaç�
 Este repositório foi feito como material de conteúdo para um vídeo no canal `Dev Tech Tips Brasil`, dessa forma quando o vídeo estiver no ar será então adicionado o link do vídeo aqui neste readme.md
 
 
-[Quero conhecer o canal!](https://www.youtube.com/channel/UC_TXbxNKS3aU-_EwFcgCYjA)
+- [Quero conhecer o canal!](https://www.youtube.com/channel/UC_TXbxNKS3aU-_EwFcgCYjA)
 
 
-[Ver vídeo tutorial do conteúdo HTML](#)
+- [Ver vídeo tutorial do conteúdo HTML sobre o Body](https://www.youtube.com/watch?v=eDNB4K-TXls)
+
+- [Ver vídeo tutorial do conteúdo HTML sobre o Head](https://www.youtube.com/watch?v=fQ6h7PDCk1A)
 
 
 ## Demonstração
