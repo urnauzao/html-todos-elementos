@@ -745,3 +745,21 @@ Define uma possível quebra de linha
 ## Extra - O que é HTML Semântico
 - Isso é uma padronização de boas pátricas para uso do HTML
     - [Dev Media Html Semântico](https://www.devmedia.com.br/html-semantico-conheca-os-elementos-semanticos-da-html5/38065?origem=https://www.youtube.com/channel/UC_TXbxNKS3aU-_EwFcgCYjA)
+
+# HEAD
+
+## ROBOTS
+- [smallseotools](https://smallseotools.com/pt/robots-txt-generator/)
+- [Tudo sobre o ROBOTS.TXT](https://developers.google.com/search/docs/advanced/robots/create-robots-txt)
+
+## SITEMAP
+- [xml-sitemaps](https://www.xml-sitemaps.com)
+
+## Meta Tags 
+- [Meta Tags io](https://metatags.io)
+- [Developers Google](https://developers.google.com/search/docs/advanced/crawling/special-tags?hl=pt-br)
+
+## Favicon (ícone)
+- [favicon-generator](https://www.favicon-generator.org)
+
+

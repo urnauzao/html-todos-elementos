@@ -7,24 +7,41 @@
 <!-- Cabeçario do documento HTML -->
 
 <head>
+    <!-- Gerar meta tags : https://metatags.io -->
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Descrição dessa página que possuí exemplo dos principais elementos HTML5">
+    <meta name="description"
+        content="Nesta aula o Urnau irá ensinar o como funciona e os mistérios do HEAD no HTML. Além disso vamos falar de SEO, ou seja, como fazer meu site aparecer no google em 2022.">
     <meta name="keywords" content="HTML, CSS, JavaScript">
     <meta name="author" content="Urnau">
-    <title>HTML com as principais TAGS para serem usadas no dia a dia.</title>
 
-    <!-- Gerar meta tags : https://metatags.io -->
+    <!-- gerar robots.txt : https://smallseotools.com/pt/robots-txt-generator/ -->
+    <!-- tudo sobre o robots.txt https://developers.google.com/search/docs/advanced/robots/create-robots-txt -->
+    <meta name="robots" content="index, follow" />
+
+    <!-- para unir o SEO da sua página em um determinado link. Caso seu site seja acessível via: www e sem www, vc pode optar por focar a indexão em apenas um deles. -->
+    <link rel="canonical" href="https://www.urnauzao.github.io/html-todos-elementos/" />
+    <link rel="alternate" type="application/rss+xml" href="https://urnauzao.github.io/html-todos-elementos/rss/" />
+
+    <!-- Gerar sitemap https://www.xml-sitemaps.com -->
+    <link rel="sitemap" type="application/xml" href="sitemap.xml" />
+
+    <!-- O MAIS IMPORTANTE -->
+    <title>Vídeo YouTube sobre HEAD do HTML</title>
+    <meta name="title" content="Vídeo YouTube sobre HEAD do HTML">
+    <!-- <title>HTML com as principais TAGS para serem usadas no dia a dia.</title> -->
 
     <!-- elemento <base> - Recurso avançado, para ajustar links na página -->
-    <base href="#" target="_blank">
+    <!-- <base href="#" target="_blank"> -->
+    <!-- <link rel="base" href="https://urnauzao.github.io/html-todos-elementos/" /> -->
 
-    <!-- elemento <link> - Incorporar um estilo CSS -->
-    <link rel="stylesheet" href="#">
+    <!-- elemento <link rel="stylesheet"> - Incorporar um estilo CSS -->
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./style2.css">
     <!-- <link rel="stylesheet" href="https://www.w3schools.com/tags/styles.css"> -->
 
-    <!-- elemento <style> - Programar em CSS -->
+    <!-- elemento <style> - Código CSS -->
     <style>
         /* incorporar css aqui mesmo */
         body {
@@ -39,6 +56,53 @@
             width: fit-content
         }
     </style>
+
+    <!-- Primary Meta Tags -->
+
+
+
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://urnauzao.github.io/html-todos-elementos/">
+    <meta property="og:title" content="Vídeo YouTube sobre HEAD do HTML">
+    <meta property="og:description"
+        content="Nesta aula o Urnau irá ensinar o como funciona e os mistérios do HEAD no HTML. Além disso vamos falar de SEO, ou seja, como fazer meu site aparecer no google em 2022.">
+    <meta property="og:image"
+        content="https://metatags.io/assets/meta-tags-16a33a6a8531e519cc0936fbba0ad904e52d35f34a46c97a2c9f6f7dd7d336f2.png">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://urnauzao.github.io/html-todos-elementos/">
+    <meta property="twitter:title" content="Vídeo YouTube sobre HEAD do HTML">
+    <meta property="twitter:description"
+        content="Nesta aula o Urnau irá ensinar o como funciona e os mistérios do HEAD no HTML. Além disso vamos falar de SEO, ou seja, como fazer meu site aparecer no google em 2022.">
+    <meta property="twitter:image"
+        content="https://metatags.io/assets/meta-tags-16a33a6a8531e519cc0936fbba0ad904e52d35f34a46c97a2c9f6f7dd7d336f2.png">
+
+
+    <link rel="apple-touch-icon" sizes="57x57" href="./assets/images/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="./assets/images/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="./assets/images/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="./assets/images/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="./assets/images/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="./assets/images/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="./assets/images/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="./assets/images/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="./assets/images/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="./assets/images/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="./assets/images/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./assets/images/favicon-16x16.png">
+    <link rel="manifest" href="./assets/images/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="./assets/images/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+    <!-- <script> Scripts daqui são executados antes da página carregar -->
+    <script>
+        alert('página está carregando');
+    </script>
 </head>
 
 <!-- Conteúdo da página HTML (visível pro usuário) -->
