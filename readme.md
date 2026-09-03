@@ -1,9 +1,9 @@
-# Repositório com as principais tags(elemetos) HTML
+# Repositório com as principais tags(elementos) HTML
 Neste repositório, no arquivo index.html está presente as principais tags HTML da atual versão do HTML 5.
-Assim, dentre as variedades de tags disponíveis, todas que estavão em situação de depreciada(descontinuada) foram ignoradas.
+Assim, dentre as variedades de tags disponíveis, todas que estavam em situação de depreciada(descontinuada) foram ignoradas.
 
 ## Tutorial em Vídeo
-Este repositório foi feito como material de conteúdo para um vídeo no canal `Dev Tech Tips Brasil`, dessa forma quando o vídeo estiver no ar será então adicionado o link do vídeo aqui neste readme.md
+Este repositório foi feito como material de conteúdo para uma série de vídeos no canal `Dev Tech Tips Brasil`. Os links dos vídeos já publicados estão listados abaixo.
 
 
 - [Quero conhecer o canal!](https://www.youtube.com/channel/UC_TXbxNKS3aU-_EwFcgCYjA)
@@ -741,14 +741,15 @@ Define uma possível quebra de linha
     - [Meta Tags](https://metatags.io?origem=https://www.youtube.com/channel/UC_TXbxNKS3aU-_EwFcgCYjA)
     - [Cia Websites](https://www.ciawebsites.com.br/ferramentas-de-seo/gerador-de-meta-tags/#meta-tags-wrapper?origem=https://www.youtube.com/channel/UC_TXbxNKS3aU-_EwFcgCYjA)
 ### Gerar Favicon 
-- Ferramente para gerar aquele icone que fica na aba do seu browser.
+- Ferramenta para gerar aquele icone que fica na aba do seu browser.
     - [Favicon Generator](https://www.favicon-generator.org)
 
 ## Extra - O que é HTML Semântico
-- Isso é uma padronização de boas pátricas para uso do HTML
+- Isso é uma padronização de boas práticas para uso do HTML
     - [Dev Media Html Semântico](https://www.devmedia.com.br/html-semantico-conheca-os-elementos-semanticos-da-html5/38065?origem=https://www.youtube.com/channel/UC_TXbxNKS3aU-_EwFcgCYjA)
 
-# HEAD
+## HEAD
+Ferramentas complementares para configurar a seção `<head>` do documento (SEO, robots, sitemap, meta tags e favicon).
 
 ## ROBOTS
 - [smallseotools](https://smallseotools.com/pt/robots-txt-generator/)
